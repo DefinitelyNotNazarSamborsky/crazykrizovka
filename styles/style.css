@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.word-container {
+    display: flex;
+    row-gap: 5px;
+    column-gap: 3px;
+}
+
+.letter-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.letter-input:focus {
+    outline: none;
+    border: 2px solid #007bff;
+}
